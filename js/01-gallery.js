@@ -30,7 +30,7 @@ function handlePhoto(event) {
   }
   event.preventDefault();
 
-  const modal = basicLightbox.create(`img src="${event.target.dataset.source}" alt="${event.target.alt}">`);
+  const modal = basicLightbox.create(`<img src="${event.target.dataset.source}" alt="${event.target.alt}">`);
   modal.show();
 }
 
